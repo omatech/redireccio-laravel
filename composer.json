@@ -1,0 +1,20 @@
+{
+  "name": "omatech/redireccio/laravel",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Christian Bohollo",
+      "email": "cbohollo@omatech.com"
+    }
+  ],
+  "require": {
+    "omatech/redirectio" : "dev-master"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Omatech\\RedireccIO\\Laravel\\RedireccIOServiceProvider"
+      ]
+    }
+  }
+}
