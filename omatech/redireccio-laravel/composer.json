@@ -10,6 +10,11 @@
   "require": {
     "omatech/redireccio-php" : "dev-master"
   },
+  "autoload": {
+    "psr-4": {
+      "Omatech\\RedireccIO\\Laravel\\": "src/"
+    }
+  },
   "extra": {
     "laravel": {
       "providers": [
