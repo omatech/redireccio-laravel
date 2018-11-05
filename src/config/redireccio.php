@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'server' => 'http://redirecc.io/',
+    'server' => 'https://redirecc.io/',
     'token' => env('REDIRECTIO_TOKEN')
 ];

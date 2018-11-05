@@ -1,5 +1,5 @@
 {
-  "name": "omatech/redireccio/laravel",
+  "name": "omatech/redireccio-laravel",
   "minimum-stability": "dev",
   "authors": [
     {
@@ -8,7 +8,7 @@
     }
   ],
   "require": {
-    "omatech/redirectio" : "dev-master"
+    "omatech/redireccio-php" : "dev-master"
   },
   "extra": {
     "laravel": {
