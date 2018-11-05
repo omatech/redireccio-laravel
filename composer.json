@@ -12,7 +12,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Omatech\\RedireccIO\\Laravel\\": "src/redireccio-laravel"
+      "Omatech\\RedireccIO\\Laravel\\": "src"
     }
   },
   "extra": {
