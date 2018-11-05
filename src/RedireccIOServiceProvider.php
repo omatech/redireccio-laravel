@@ -3,7 +3,7 @@
 namespace Omatech\RedireccIO\Laravel;
 
 use Illuminate\Support\ServiceProvider;
-use Omatech\RedireccIO\RedireccIOClient;
+use Omatech\RedireccIO\Client;
 
 class RedireccIOServiceProvider extends ServiceProvider
 {
@@ -35,7 +35,7 @@ class RedireccIOServiceProvider extends ServiceProvider
         $this->publish();
 
         app()->bind('RedireccIO', function() {
-            return new RedireccIOClient(config('redireccio'));
+            return new Client(config('redireccio'));
         });
     }
 
