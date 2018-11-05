@@ -62,4 +62,9 @@ class RedireccIOServiceProvider extends ServiceProvider
             __DIR__.'/config/redireccio.php' => config_path('redireccio.php'),
         ]);
     }
+
+    public function provides() 
+    {
+        return ['redireccio'];
+    }
 }
