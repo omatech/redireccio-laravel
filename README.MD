@@ -1,4 +1,4 @@
-## RediccIO
+## RedireccIO
 
 
 ```composer require omatech/redireccio-laravel```
